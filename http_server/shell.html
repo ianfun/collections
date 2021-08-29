@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet">
+	<meta charset="utf-8">
+	<title>python console</title>
+</head>
+<body>
+<button onclick="clo();alert('shell closed');window.close()">close shell</button>
+<style type="text/css">
+	input {
+		min-width: 900px;
+		color: green;
+		border-width: 0px;
+	}
+	span, input, nav {
+		font-family: Consolas;
+		font-style: oblique;
+	}
+	font{
+		font-size: 15px;
+		color: cornflowerblue;
+		font-family: monospace;
+	}
+</style>
+<nav id='version'>waiting for server</nav>
+<pre id='shell'>
+<input id="new" value="print('Silav gerokê')">
+</pre>
+<script type="text/javascript">
+	var _history = [];
+	var _index = 0;
+	var shell=document.getElementById('shell');
+	window.onload=function(){
+		var x=new XMLHttpRequest();
+		x.open("GET", "http://127.0.0.1:7999", true);
+		x.onreadystatechange=function(){
+			if (x.readyState == 4 && x.status == 200){
+				document.getElementById('version').innerText=x.response;
+				document.getElementById('new').focus();
+		    }
+		}
+		x.send(null);
+	}
+	function clo(){
+		var x=new XMLHttpRequest();
+		x.open("POST", "http://127.0.0.1:7999", true);
+		x.send('exit(0)');
+	}
+	shell.addEventListener('keydown', function(_){
+		if(_.keyCode === 13){
+			_.preventDefault();
+			var old = document.getElementById('new');
+			var x=new XMLHttpRequest();
+			x.open("POST", "http://127.0.0.1:7999", true);
+			_history.push(old.value);
+			_index += 1;
+			x.send(old.value);
+			x.onreadystatechange=function(){
+			if (x.readyState == 4 && x.status == 200){
+					old.removeAttribute('id');
+					shell.appendChild(document.createElement('br'));
+					var ne = document.createElement('font');
+					ne.innerText=x.response;
+					shell.appendChild(ne);
+					var input = document.createElement('input');
+					input.setAttribute('id', 'new');
+					shell.appendChild(input);
+					input.focus();
+				}
+			}
+		}else if (_.keyCode==38) {
+			if (_index){
+				_index -=1 ;
+				document.getElementById('new').value=_history[_index];
+			}
+		}else if (_.keyCode==40) {
+			if (_history[_index+1]!=undefined){
+				_index+=1;
+				document.getElementById('new').value=_history[_index];
+			}
+		}
+	})
+</script>
+</body>
+</html>

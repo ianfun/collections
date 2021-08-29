@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        function inter(){
+            var n=new XMLHttpRequest();
+            n.open("GET", "http://127.0.0.1:8000", true);
+            n.send(null);
+            n.onreadystatechange = function(){
+                if (n.response=='e'){
+                    alert("fail to launch shell");
+                }
+            }
+        }
+        function _send(what){
+            var x = document.getElementById("code");
+            var n = new XMLHttpRequest();
+            n.open("POST", "http://127.0.0.1:8000", true);
+            n.onreadystatechange = function(){
+                if (n.response){
+                    document.getElementById('result').value=n.response;
+                }else{
+                document.getElementById('result').value="no response yet";
+                }
+            }
+            n.send(what)
+        }
+    </script>
+    <button onclick="inter()">launch shell</button>
+    <select id="la" onchange="_send(document.getElementById('la').value)">
+        <option value="!p" selected="selected">python</option>
+        <option value="!h">haskell</option>
+        <option value="!c">C</option>
+    </select>
+    <p>input some code here</p>
+    <textarea id='code' cols="80" rows="14"></textarea>
+    <button onclick="_send(document.getElementById('code').value)">RUN</button>
+    <textarea id='result' cols="80" rows="14"></textarea>
+</body>
+</html>
