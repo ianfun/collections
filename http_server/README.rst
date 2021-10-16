@@ -1,7 +1,7 @@
 *****************
 python server
 *****************
-this dir contain a simple server can run [python, C, haskell]
+this dir contain a simple server can run [python, C, haskell, nim]
 and python shell on browser
 
 run
@@ -12,6 +12,11 @@ in other platform, you may need to modify *server.py* (change .exe to .out).
 
 requirments
 ==================
-haskell   runghc
-python    python
-C         gcc
+
+* haskell  runghc
+
+* python   python
+
+* C  gcc or clang
+
+* nim  nim
