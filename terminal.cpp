@@ -1,5 +1,8 @@
+// this serveris not working when no ascii char in path
+// TODO: add url encode & decode to path(big-5)
 #undef UNICODE
 #define WIN32_LEAN_AND_MEAN
+#include <direct.h>
 #include <windows.h>
 #include <winsock2.h>
 #include <ws2tcpip.h>
@@ -8,6 +11,9 @@
 #include <csignal>
 #include <ctime>
 #include <chrono>
+#include <cerrno>
+#include <sys/types.h>
+#include <sys/stat.h>
 constexpr int CR = 13;
 constexpr int LF = 10;
 constexpr const char* CRLF = "\r\n";
@@ -33,14 +39,60 @@ void clean(int) {
     exit(1);
 }
 
+static SOCKET ClientSocket = INVALID_SOCKET;
+void reporterr(void) {
+    char buf[100];
+    strerror_s(buf, 100, errno);
+    send_all(ClientSocket, "<!DOCTYPE html><html>", 21);
+    send_all(ClientSocket, buf, (int)strlen(buf));
+    send_all(ClientSocket, "</html>", 7);
+}
+bool dirExists(const char* path) {
+    struct stat info;
+    if (stat(path, &info) == 0 && info.st_mode & S_IFDIR) {
+        return true;
+    }
+    return false;
+}
+static char recvbuf[DEFAULT_BUFLEN];
+void listdir(const char* path) {
+    send_all(ClientSocket, "<!DOCTYPE html><html><head><meta charset=\"big-5\"></head><body>", 62);
+    WIN32_FIND_DATA fdFile;
+    HANDLE hFind = NULL;
+    strcpy_s(recvbuf, DEFAULT_BUFLEN, path);
+    strcat_s(recvbuf, DEFAULT_BUFLEN, "\\*");
+    if ((hFind = FindFirstFile(recvbuf, &fdFile)) == INVALID_HANDLE_VALUE) {
+        reporterr();
+    }
+    else {
+        send_all(ClientSocket, "<ul>", 4);
+        char full[256] = {0};
+        do
+        {
+            int len = (int)strlen(fdFile.cFileName);
+            send_all(ClientSocket, "<li><a href='", 13);
+            strcpy_s(recvbuf, DEFAULT_BUFLEN, "http://localhost/");
+            if (GetFullPathNameA(fdFile.cFileName, 256, full, NULL) == 0) {
+                reporterr();
+                return;
+            }
+            strcat_s(recvbuf, DEFAULT_BUFLEN, full);
+            send_all(ClientSocket, recvbuf, (int)strlen(recvbuf));
+            send_all(ClientSocket, "'>", 2);
+            send_all(ClientSocket, fdFile.cFileName, len);
+            send_all(ClientSocket, "</a></li>", 9);
+        } while (FindNextFile(hFind, &fdFile));
+        FindClose(hFind);
+        send_all(ClientSocket, "</ul></body></html>", 19);
+    }
+}
 int __cdecl main(void)
 {
     signal(SIGINT, clean);
-    SetConsoleCP(CP_UTF8);
+    //SetConsoleCP(CP_UTF8);
     WSADATA wsaData;
     int iResult;
     SOCKET ListenSocket = INVALID_SOCKET;
-    SOCKET ClientSocket = INVALID_SOCKET;
     struct addrinfo* result = NULL;
     struct addrinfo hints = {};
     iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
@@ -81,7 +133,7 @@ int __cdecl main(void)
         WSACleanup();
         return 1;
     }
-    char recvbuf[DEFAULT_BUFLEN], *path=nullptr, *ptr= nullptr;
+    const char* path = nullptr;char *ptr = nullptr;
     puts("serving at localhost:" DEFAULT_PORT);
     for (;;) {
         {
@@ -137,12 +189,14 @@ int __cdecl main(void)
                 goto RET;
             }
             p += 1;
-            for (path = p; !isspace(*p++);)
+            for (path = p;*p!=' '&&*p!='\t' && *p; p += 1)
                 ;
             *p = '\0';
         }
-        putchar(' ');
-        puts(path);
+        printf(" <%s>", path);
+        if (*path == '\0') {
+            path = ".";
+        }
         if (ptr == NULL) {
             puts("no CRLF found in first line");
             goto DONE;
@@ -181,8 +235,13 @@ Accept-Ranges: bytes\r\n\r\n", 59))
         FILE* f;
         iResult = fopen_s(&f, path, "rb");
         if (f == NULL) {
-            strerror_s(recvbuf, DEFAULT_BUFLEN, iResult);
-            send_all(ClientSocket, recvbuf, (int)strlen(recvbuf));
+            if (dirExists(path)) {
+                if (!_chdir(path))
+                    reporterr();
+                listdir(path);
+                goto RET;
+            }
+            reporterr();
             goto RET;
         }
         for (;!feof(f);) {
