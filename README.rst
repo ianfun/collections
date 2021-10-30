@@ -8,7 +8,8 @@ my notes.
 
 `cpp`_ HTTP Server C++ (using Winsock)
 
-the c++ server looks like ⬇
+the c++ server looks like
+
 .. image:: screen.png
 .. _python: sendfile.py
 .. _cpp: terminal.cpp
