@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Terminal</title>
+	<script type="text/javascript">
+	function start() {
+		var result = document.getElementById('result');
+		var line = document.getElementById('line');
+		line.focus();
+		let ws = new WebSocket("ws://localhost");
+		ws.onmessage = (m)=>{
+			m.data.text().then((t)=>{
+					for (let i of t) {
+						switch (i){
+							case '\n':case '\r':
+								result.appendChild(document.createElement('br'));
+							default: result.append(i);
+						}
+					}
+				}
+			)
+		}
+		line.addEventListener("keyup", function(e) {
+						if (event.keyCode === 13) {
+							ws.send(line.innerText.slice(0, -1));
+							line.innerText = "▌";
+						}
+					});
+	}
+	window.onload = start;
+</script>
+</head>
+<body>
+<p id="result" contenteditable="false" style="background-color: gainsboro;cursor: crosshair;font-family: monospace;font-style: oblique;"></p>
+<b id="line" contenteditable="true" style="font-family: cursive;color: brown;outline:none;">▌</b>
+</body>
+</html>
