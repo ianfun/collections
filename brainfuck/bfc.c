@@ -2,41 +2,68 @@
 #include <windows.h>
 #include <stdint.h>
 
-static uint8_t TYPE_DATA[500] = {0};
-static uint8_t* ptr = TYPE_DATA;
+static
+   uint8_t TYPE[1024], *ptr=TYPE;
 
-void brainfuck(uint8_t* code){
-	for(;;){
-		switch (*code){	
-			case '>': ptr += 1;
+void brainfuck(char* code){
+	for(;;code+=1){
+		switch (*code){
+			case '>': ++ptr;
 					  break;
-			case '<': ptr -= 1;
+			case '<': --ptr;
 					  break;
-			case '+': *ptr += 1;
+			case '+': ++*ptr;
 					  break;
-			case '-': *ptr -= 1;
+			case '-': --*ptr;
 					  break;
 			case '.': putchar(*ptr);
 					  break;
 			case ',': *ptr = getchar();
 					  break;
 			case '[':
-					  while (*ptr){
-					  	brainfuck(code+1);
-					  }
-					  do {
-					  	code += 1;
-					  } while (*code!=']');
-					  break;
+					{
+				  		while (*ptr){
+				  			brainfuck(code+1);
+				  		}
+				  		int b = 0;
+				  		do {
+				  			code += 1;
+				  			switch (*code){
+				  				case '[': ++b;break;
+				  				case ']': --b;break;
+				  			}
+				  		} while (b >= 0);
+					}
+					break;
 			case ']': return;
-			case '\x0': return; // end of string
-			default:   printf("unexpected '%c' (%d)\n", *code, (int)*code);
+			case '\x0': return;
 		}
-		code += 1;
 	}
 }
 
-int main(void)
+int main(int argc, char **argv)
 {
-	brainfuck((uint8_t*)"++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.");
+	if (argc < 2)
+		fprintf(stderr, "Usage: [%s] [file.bf]\n", *argv);
+	else {
+		FILE *f = fopen(argv[1], "rb");
+		if (f==NULL)
+			perror(argv[1]);
+		else {
+			fseek(f, 0, SEEK_END);
+			size_t size = (size_t)ftell(f);
+			fseek(f, 0, SEEK_SET);
+			char *code = malloc(size+1);
+			code[size] = 0;
+			if (ptr==NULL)
+				perror("malloc");
+			else {
+				if (fread(code,  size, 1, f)<0)
+					perror("fread");
+				else
+					brainfuck(code);
+			}
+			fclose(f);
+		}
+	}
 }

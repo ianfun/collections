@@ -1,9 +1,5 @@
-Brainfuck compiler and interpreter.
+Brainfuck compiler and interpreter, and Just In Time Compiler.
 
-file_name  |  description
----------- | ------------ 
-- hello.bf              | brainfuck hello world
-- C_interpreter.c       | interpreter in C
-- py_interpreter.py     | interpreter in python
-- to_C.c                | Convert to C
-- to_js.html            | Convert to javascript
+Written in [Nim](nim-lang.org) and C.
+
+JIT is very fast, but `gcc + C code` is the fastest!
