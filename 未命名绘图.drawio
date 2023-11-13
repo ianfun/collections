@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-13T02:47:50.012Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="uw-_MYsUsNR0KESmjh8I" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-13T02:49:27.906Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="8sFU7TWb0yO1iTR4X2TH" version="21.7.5" type="github">
   <diagram name="第 1 页" id="0khi-y4i2Tu5UxIGoybB">
     <mxGraphModel dx="2045" dy="1000" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -79,174 +79,174 @@
           <mxGeometry y="120" width="188" height="30" as="geometry" />
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-40" value="直流發電機比較" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-830" y="-67" width="772" height="426" as="geometry" />
+          <mxGeometry x="-830" y="-67" width="553.5499725341797" height="426" as="geometry" />
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-129" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-40">
-          <mxGeometry y="30" width="772" height="66" as="geometry" />
+          <mxGeometry y="30" width="553.5499725341797" height="66" as="geometry" />
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-130" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-129">
-          <mxGeometry width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+          <mxGeometry width="74" height="66" as="geometry">
+            <mxRectangle width="74" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-131" value="負載變大" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-129">
-          <mxGeometry x="154" width="156" height="66" as="geometry">
-            <mxRectangle width="156" height="66" as="alternateBounds" />
+          <mxGeometry x="74" width="105" height="66" as="geometry">
+            <mxRectangle width="105" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-132" value="剩磁為零" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-129">
-          <mxGeometry x="310" width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+          <mxGeometry x="179" width="129" height="66" as="geometry">
+            <mxRectangle width="129" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-133" value="VR%" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-129">
-          <mxGeometry x="464" width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+          <mxGeometry x="308" width="86" height="66" as="geometry">
+            <mxRectangle width="86" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-139" value="用途" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-129">
-          <mxGeometry x="618" width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+          <mxGeometry x="394" width="160" height="66" as="geometry">
+            <mxRectangle width="160" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-41" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-40">
-          <mxGeometry y="96" width="772" height="66" as="geometry" />
+          <mxGeometry y="96" width="553.5499725341797" height="66" as="geometry" />
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-42" value="外激式" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-41">
-          <mxGeometry width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+          <mxGeometry width="74" height="66" as="geometry">
+            <mxRectangle width="74" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-43" value="\(\phi\)定值" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-41">
-          <mxGeometry x="154" width="156" height="66" as="geometry">
-            <mxRectangle width="156" height="66" as="alternateBounds" />
+          <mxGeometry x="74" width="105" height="66" as="geometry">
+            <mxRectangle width="105" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-44" value="可建立電壓" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-41">
-          <mxGeometry x="310" width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+          <mxGeometry x="179" width="129" height="66" as="geometry">
+            <mxRectangle width="129" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-134" value="正值&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-41">
-          <mxGeometry x="464" width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+          <mxGeometry x="308" width="86" height="66" as="geometry">
+            <mxRectangle width="86" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-140" value="華德黎翁電壓系統" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-41">
-          <mxGeometry x="618" width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+          <mxGeometry x="394" width="160" height="66" as="geometry">
+            <mxRectangle width="160" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-45" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-40">
-          <mxGeometry y="162" width="772" height="66" as="geometry" />
+          <mxGeometry y="162" width="553.5499725341797" height="66" as="geometry" />
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-46" value="串激式" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-45">
-          <mxGeometry width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+          <mxGeometry width="74" height="66" as="geometry">
+            <mxRectangle width="74" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-47" value="\(\phi\)增加" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-45">
-          <mxGeometry x="154" width="156" height="66" as="geometry">
-            <mxRectangle width="156" height="66" as="alternateBounds" />
+          <mxGeometry x="74" width="105" height="66" as="geometry">
+            <mxRectangle width="105" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-48" value="無法" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-45">
-          <mxGeometry x="310" width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+          <mxGeometry x="179" width="129" height="66" as="geometry">
+            <mxRectangle width="129" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-135" value="負值" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-45">
-          <mxGeometry x="464" width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+          <mxGeometry x="308" width="86" height="66" as="geometry">
+            <mxRectangle width="86" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-141" value="輕載:升壓機&lt;br&gt;重載:橫流機" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-45">
-          <mxGeometry x="618" width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+          <mxGeometry x="394" width="160" height="66" as="geometry">
+            <mxRectangle width="160" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-49" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-40">
-          <mxGeometry y="228" width="772" height="66" as="geometry" />
+          <mxGeometry y="228" width="553.5499725341797" height="66" as="geometry" />
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-50" value="分激式" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-49">
-          <mxGeometry width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+          <mxGeometry width="74" height="66" as="geometry">
+            <mxRectangle width="74" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-51" value="\(\phi\)定值" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-49">
-          <mxGeometry x="154" width="156" height="66" as="geometry">
-            <mxRectangle width="156" height="66" as="alternateBounds" />
+          <mxGeometry x="74" width="105" height="66" as="geometry">
+            <mxRectangle width="105" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-52" value="無法" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-49">
-          <mxGeometry x="310" width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+          <mxGeometry x="179" width="129" height="66" as="geometry">
+            <mxRectangle width="129" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I8KW_stVI-7e_ENemAaj-136" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-49">
-          <mxGeometry x="464" width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+        <mxCell id="I8KW_stVI-7e_ENemAaj-136" value="正值" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-49">
+          <mxGeometry x="308" width="86" height="66" as="geometry">
+            <mxRectangle width="86" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-142" value="直流電源" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-49">
-          <mxGeometry x="618" width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+          <mxGeometry x="394" width="160" height="66" as="geometry">
+            <mxRectangle width="160" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-121" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-40">
-          <mxGeometry y="294" width="772" height="66" as="geometry" />
+          <mxGeometry y="294" width="553.5499725341797" height="66" as="geometry" />
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-122" value="積複激" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-121">
-          <mxGeometry width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+          <mxGeometry width="74" height="66" as="geometry">
+            <mxRectangle width="74" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-123" value="\(\phi\)增加" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-121">
-          <mxGeometry x="154" width="156" height="66" as="geometry">
-            <mxRectangle width="156" height="66" as="alternateBounds" />
+          <mxGeometry x="74" width="105" height="66" as="geometry">
+            <mxRectangle width="105" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-124" value="無法" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-121">
-          <mxGeometry x="310" width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+          <mxGeometry x="179" width="129" height="66" as="geometry">
+            <mxRectangle width="129" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I8KW_stVI-7e_ENemAaj-137" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-121">
-          <mxGeometry x="464" width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+        <mxCell id="I8KW_stVI-7e_ENemAaj-137" value="不一定" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-121">
+          <mxGeometry x="308" width="86" height="66" as="geometry">
+            <mxRectangle width="86" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-143" value="電車轉用直流電源" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-121">
-          <mxGeometry x="618" width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+          <mxGeometry x="394" width="160" height="66" as="geometry">
+            <mxRectangle width="160" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-125" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-40">
-          <mxGeometry y="360" width="772" height="66" as="geometry" />
+          <mxGeometry y="360" width="553.5499725341797" height="66" as="geometry" />
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-126" value="差複激" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-125">
-          <mxGeometry width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+          <mxGeometry width="74" height="66" as="geometry">
+            <mxRectangle width="74" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-127" value="\(\phi\)減少" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-125">
-          <mxGeometry x="154" width="156" height="66" as="geometry">
-            <mxRectangle width="156" height="66" as="alternateBounds" />
+          <mxGeometry x="74" width="105" height="66" as="geometry">
+            <mxRectangle width="105" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-128" value="無法" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-125">
-          <mxGeometry x="310" width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+          <mxGeometry x="179" width="129" height="66" as="geometry">
+            <mxRectangle width="129" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I8KW_stVI-7e_ENemAaj-138" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-125">
-          <mxGeometry x="464" width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+        <mxCell id="I8KW_stVI-7e_ENemAaj-138" value="正值(最大)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-125">
+          <mxGeometry x="308" width="86" height="66" as="geometry">
+            <mxRectangle width="86" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-144" value="電焊機" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-125">
-          <mxGeometry x="618" width="154" height="66" as="geometry">
-            <mxRectangle width="154" height="66" as="alternateBounds" />
+          <mxGeometry x="394" width="160" height="66" as="geometry">
+            <mxRectangle width="160" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
