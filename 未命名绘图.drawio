@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-13T02:49:27.906Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="8sFU7TWb0yO1iTR4X2TH" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-13T02:58:30.507Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="vjlWTXfOxAV1zzDs1gwI" version="21.7.5" type="github">
   <diagram name="第 1 页" id="0khi-y4i2Tu5UxIGoybB">
     <mxGraphModel dx="2045" dy="1000" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -160,7 +160,7 @@
             <mxRectangle width="86" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I8KW_stVI-7e_ENemAaj-141" value="輕載:升壓機&lt;br&gt;重載:橫流機" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-45">
+        <mxCell id="I8KW_stVI-7e_ENemAaj-141" value="輕載:升壓機&lt;br&gt;重載:恆流機" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-45">
           <mxGeometry x="394" width="160" height="66" as="geometry">
             <mxRectangle width="160" height="66" as="alternateBounds" />
           </mxGeometry>
@@ -245,6 +245,177 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="I8KW_stVI-7e_ENemAaj-144" value="電焊機" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-125">
+          <mxGeometry x="394" width="160" height="66" as="geometry">
+            <mxRectangle width="160" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-145" value="直流電動機比較" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-807" y="412" width="553.5499725341797" height="426" as="geometry" />
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-146" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-145">
+          <mxGeometry y="30" width="553.5499725341797" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-147" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-146">
+          <mxGeometry width="74" height="66" as="geometry">
+            <mxRectangle width="74" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-148" value="轉速特性" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-146">
+          <mxGeometry x="74" width="105" height="66" as="geometry">
+            <mxRectangle width="105" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-149" value="轉矩特性" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-146">
+          <mxGeometry x="179" width="129" height="66" as="geometry">
+            <mxRectangle width="129" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-150" value="SR%" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-146">
+          <mxGeometry x="308" width="86" height="66" as="geometry">
+            <mxRectangle width="86" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-151" value="用途" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-146">
+          <mxGeometry x="394" width="160" height="66" as="geometry">
+            <mxRectangle width="160" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-152" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-145">
+          <mxGeometry y="96" width="553.5499725341797" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-153" value="外激式" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-152">
+          <mxGeometry width="74" height="66" as="geometry">
+            <mxRectangle width="74" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-154" value="恆速特性" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-152">
+          <mxGeometry x="74" width="105" height="66" as="geometry">
+            <mxRectangle width="105" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-155" value="上升曲線" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-152">
+          <mxGeometry x="179" width="129" height="66" as="geometry">
+            <mxRectangle width="129" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-156" value="\(&amp;gt;0\)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-152">
+          <mxGeometry x="308" width="86" height="66" as="geometry">
+            <mxRectangle width="86" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-157" value="華德-黎翁納德控速系統" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-152">
+          <mxGeometry x="394" width="160" height="66" as="geometry">
+            <mxRectangle width="160" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-158" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-145">
+          <mxGeometry y="162" width="553.5499725341797" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-159" value="串激式" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-158">
+          <mxGeometry width="74" height="66" as="geometry">
+            <mxRectangle width="74" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-160" value="恆速特性" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-158">
+          <mxGeometry x="74" width="105" height="66" as="geometry">
+            <mxRectangle width="105" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-161" value="上升曲線" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-158">
+          <mxGeometry x="179" width="129" height="66" as="geometry">
+            <mxRectangle width="129" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-162" value="\(&amp;gt;0\)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-158">
+          <mxGeometry x="308" width="86" height="66" as="geometry">
+            <mxRectangle width="86" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-163" value="車床、刨床" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-158">
+          <mxGeometry x="394" width="160" height="66" as="geometry">
+            <mxRectangle width="160" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-164" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-145">
+          <mxGeometry y="228" width="553.5499725341797" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-165" value="分激式" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-164">
+          <mxGeometry width="74" height="66" as="geometry">
+            <mxRectangle width="74" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-166" value="輕載:雙曲線&lt;br&gt;重載:下降曲線" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-164">
+          <mxGeometry x="74" width="105" height="66" as="geometry">
+            <mxRectangle width="105" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-167" value="輕載:拋物線&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;重載:上升直線" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-164">
+          <mxGeometry x="179" width="129" height="66" as="geometry">
+            <mxRectangle width="129" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-168" value="\(&amp;gt;0\)(最大)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-164">
+          <mxGeometry x="308" width="86" height="66" as="geometry">
+            <mxRectangle width="86" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-169" value="起重機&lt;br&gt;果汁機" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-164">
+          <mxGeometry x="394" width="160" height="66" as="geometry">
+            <mxRectangle width="160" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-170" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-145">
+          <mxGeometry y="294" width="553.5499725341797" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-171" value="積複激" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-170">
+          <mxGeometry width="74" height="66" as="geometry">
+            <mxRectangle width="74" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-172" value="輕載:≈分激式&lt;br&gt;重載:&amp;lt;分激式" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-170">
+          <mxGeometry x="74" width="105" height="66" as="geometry">
+            <mxRectangle width="105" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-173" value="輕載:≈分激式&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;重載:&amp;gt;分激式" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-170">
+          <mxGeometry x="179" width="129" height="66" as="geometry">
+            <mxRectangle width="129" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-174" value="\(&amp;gt;0\)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-170">
+          <mxGeometry x="308" width="86" height="66" as="geometry">
+            <mxRectangle width="86" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-175" value="升降梯&lt;br&gt;電梯" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-170">
+          <mxGeometry x="394" width="160" height="66" as="geometry">
+            <mxRectangle width="160" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-176" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-145">
+          <mxGeometry y="360" width="553.5499725341797" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-177" value="差複激" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-176">
+          <mxGeometry width="74" height="66" as="geometry">
+            <mxRectangle width="74" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-178" value="輕載:≈分激式&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;重載:&amp;gt;分激式" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-176">
+          <mxGeometry x="74" width="105" height="66" as="geometry">
+            <mxRectangle width="105" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-179" value="輕載:≈分激式&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;重載:&amp;lt;分激式" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-176">
+          <mxGeometry x="179" width="129" height="66" as="geometry">
+            <mxRectangle width="129" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-180" value="\(\leq 0\)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-176">
+          <mxGeometry x="308" width="86" height="66" as="geometry">
+            <mxRectangle width="86" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8KW_stVI-7e_ENemAaj-181" value="實驗性質" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="I8KW_stVI-7e_ENemAaj-176">
           <mxGeometry x="394" width="160" height="66" as="geometry">
             <mxRectangle width="160" height="66" as="alternateBounds" />
           </mxGeometry>
